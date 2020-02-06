@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="DataTemplateSelectorExample.Views.WithoutDependencyObjectView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DataTemplateSelectorExample.Views">
+    <ListBox ItemsSource="{Binding TestData}">
+        <ListBox.ItemTemplateSelector>
+            <local:WithoutDependencyObjectDataTemplateSelector>
+                <local:WithoutDependencyObjectDataTemplateSelector.MyStringDataTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="Got a string" />
+                    </DataTemplate>
+                </local:WithoutDependencyObjectDataTemplateSelector.MyStringDataTemplate>
+                <local:WithoutDependencyObjectDataTemplateSelector.MyIntDataTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="Got a number" />
+                    </DataTemplate>
+                </local:WithoutDependencyObjectDataTemplateSelector.MyIntDataTemplate>
+            </local:WithoutDependencyObjectDataTemplateSelector>
+        </ListBox.ItemTemplateSelector>
+    </ListBox>
+</UserControl>

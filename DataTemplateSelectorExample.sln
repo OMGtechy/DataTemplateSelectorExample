@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTemplateSelectorExample", "DataTemplateSelectorExample\DataTemplateSelectorExample.csproj", "{DB34FD97-9867-4799-9DA5-AE26624065EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB34FD97-9867-4799-9DA5-AE26624065EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB34FD97-9867-4799-9DA5-AE26624065EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB34FD97-9867-4799-9DA5-AE26624065EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB34FD97-9867-4799-9DA5-AE26624065EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5512E455-3654-4EF1-B23E-5BAC7054D01C}
+	EndGlobalSection
+EndGlobal

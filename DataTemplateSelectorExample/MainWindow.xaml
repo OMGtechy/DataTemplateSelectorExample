@@ -1,0 +1,17 @@
+﻿<Window x:Class="DataTemplateSelectorExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:DataTemplateSelectorExample.Views"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <local:WithDependencyObjectView Grid.Row="0" Grid.Column="0" DataContext="{Binding .}" />
+        <local:WithoutDependencyObjectView Grid.Row="0" Grid.Column="1" DataContext="{Binding .}" />
+    </Grid>
+</Window>
